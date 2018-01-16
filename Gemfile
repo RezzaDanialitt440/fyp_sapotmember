@@ -29,6 +29,7 @@ gem 'sendgrid-ruby'
 
 group :development, :test do
   gem 'byebug'
+  gem 'pg'
   gem 'pry-byebug'
   gem 'hirb'
   gem 'hirb-unicode'
@@ -44,6 +45,7 @@ group :development do
   gem 'spring'
   gem 'pry-rails'
   gem "meta_request"
+  gem 'pg'
 end
 
 group :production do
