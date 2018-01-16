@@ -18,7 +18,7 @@ gem 'geocoder', '~> 1.3', '>= 1.3.7'
 gem 'font-awesome-rails', '~> 4.6', '>= 4.6.3.0'
 gem "slim-rails"
 gem "letter_opener", :group => :development
-gem 'pg'
+gem 'pg', '1.0.0'
 gem 'carrierwave', '~> 1.0'
 gem 'semantic-ui-sass'
 gem 'pry-byebug'
@@ -29,7 +29,7 @@ gem 'sendgrid-ruby'
 
 group :development, :test do
   gem 'byebug'
-  gem 'pg'
+  gem 'pg', '1.0.0'
   gem 'pry-byebug'
   gem 'hirb'
   gem 'hirb-unicode'
@@ -45,10 +45,10 @@ group :development do
   gem 'spring'
   gem 'pry-rails'
   gem "meta_request"
-  gem 'pg'
+  gem 'pg', '1.0.0'
 end
 
 group :production do
   gem 'rails_12factor'
-  gem 'pg'
+  gem 'pg', '1.0.0'
 end
